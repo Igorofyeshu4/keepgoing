@@ -1,0 +1,9 @@
+api:
+  host: "0.0.0.0"
+  port: 8000
+  reload: true
+
+data:
+  data_dir: "docs"
+  metrics_file: "metricas_colaboradores.csv"
+  demands_file: "_DEMANDAS DE JANEIRO_2025.xlsx"
