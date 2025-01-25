@@ -1,11 +1,17 @@
 # 💹 Financial Daily Reports Pipeline
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Igorofyeshu4/keepgoing/main/docs/images/dashboard-header.png" alt="Financial Dashboard Header" width="100%"/>
-  
-  <p align="center">
-    <strong>Sistema Inteligente de Análise Financeira e Relatórios Diários</strong>
-  </p>
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
+
+<p align="center">
+    <h1>Sistema Inteligente de Análise Financeira e Relatórios Diários</h1>
+    <h3>🚀 Análise de Dados em Tempo Real | 📊 Dashboards Interativos | 💡 Insights Automáticos</h3>
+</p>
+
 </div>
 
 ## 🎯 Pipeline de Análise Financeira
@@ -44,10 +50,10 @@ graph TD
 ## 📊 Exemplos de Visualizações
 
 ### 1. Dashboard Principal
-![Dashboard Principal](https://raw.githubusercontent.com/Igorofyeshu4/keepgoing/main/docs/images/main-dashboard.png)
+[![Dashboard Principal](https://img.shields.io/badge/Dashboard_Principal-007bff?style=for-the-badge&logo=streamlit&logoColor=white)](https://raw.githubusercontent.com/Igorofyeshu4/keepgoing/main/docs/images/main-dashboard.png)
 
 ### 2. KPIs Financeiros
-![KPIs Financeiros](https://raw.githubusercontent.com/Igorofyeshu4/keepgoing/main/docs/images/financial-kpis.png)
+[![KPIs Financeiros](https://img.shields.io/badge/KPIs_Financeiros-007bff?style=for-the-badge&logo=plotly&logoColor=white)](https://raw.githubusercontent.com/Igorofyeshu4/keepgoing/main/docs/images/financial-kpis.png)
 
 ## 💡 Insights e Dicas
 
@@ -325,3 +331,5 @@ api/
 3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
+
+```
