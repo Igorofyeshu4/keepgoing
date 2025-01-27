@@ -55,6 +55,34 @@ graph TD
 ### 2. KPIs Financeiros
 [![KPIs Financeiros](https://img.shields.io/badge/KPIs_Financeiros-007bff?style=for-the-badge&logo=plotly&logoColor=white)](https://raw.githubusercontent.com/Igorofyeshu4/keepgoing/main/docs/images/financial-kpis.png)
 
+## 🤖 Análise Generativa por IA
+
+Nossa plataforma utiliza IA avançada para gerar insights profundos sobre as demandas diárias:
+
+### 1. Previsões Inteligentes
+- Análise preditiva de volume de demandas
+- Identificação de padrões sazonais
+- Previsão de picos de trabalho
+- Recomendações de alocação
+
+### 2. Análise de Texto
+- Processamento de linguagem natural
+- Categorização automática de demandas
+- Detecção de prioridades
+- Sugestões de resolução
+
+### 3. Insights Automatizados
+- Relatórios diários gerados por IA
+- Identificação de tendências
+- Alertas preventivos
+- Recomendações de otimização
+
+### 4. Métricas Avançadas
+- Score de eficiência por equipe
+- Índice de complexidade das demandas
+- Taxa de resolução ponderada
+- Previsão de SLA
+
 ## 💡 Insights e Dicas
 
 ### Análise de Demandas
@@ -428,7 +456,7 @@ organized_project/
 - Previsão de demanda
 - Identificação de tendências
 - Alertas preventivos
-- Otimização de recursos
+- Recomendações de otimização
 
 ## 🎯 Benefícios
 

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Financeiro Mobile</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header com Menu -->
+    <header class="app-header">
+        <div class="menu-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <h1>Dashboard Financeiro</h1>
+        <div class="profile-icon">👤</div>
+    </header>
+
+    <!-- Cards de Métricas -->
+    <section class="metrics-grid">
+        <div class="metric-card">
+            <h3>Total Hoje</h3>
+            <div class="metric-value">15</div>
+            <div class="metric-trend">↑ 23%</div>
+        </div>
+        <div class="metric-card">
+            <h3>Resolvidas</h3>
+            <div class="metric-value">12</div>
+            <div class="metric-trend">↑ 15%</div>
+        </div>
+    </section>
+
+    <!-- Gráfico de Performance -->
+    <section class="chart-section">
+        <h2>Performance por Equipe</h2>
+        <div class="chart-container">
+            <canvas id="teamChart"></canvas>
+        </div>
+    </section>
+
+    <!-- Lista de Demandas -->
+    <section class="demands-list">
+        <div class="demand-card" data-team="julio">
+            <div class="team-indicator team-julio"></div>
+            <div class="card-header">
+                <h3>Demanda #1234</h3>
+                <span class="status resolved">Resolvido</span>
+            </div>
+            <div class="card-body">
+                <p class="team">Equipe JULIO</p>
+                <p class="time">2h 15min</p>
+            </div>
+        </div>
+
+        <div class="demand-card" data-team="leandro">
+            <div class="team-indicator team-leandro"></div>
+            <div class="card-header">
+                <h3>Demanda #1235</h3>
+                <span class="status pending">Pendente</span>
+            </div>
+            <div class="card-body">
+                <p class="team">Equipe LEANDRO</p>
+                <p class="time">1h 30min</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Action Button -->
+    <button class="fab">+</button>
+
+    <script>
+        // Configuração do Gráfico
+        const ctx = document.getElementById('teamChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['JULIO', 'LEANDRO', 'ADRIANO'],
+                datasets: [{
+                    data: [85, 78, 92],
+                    backgroundColor: ['#1f77b4', '#2ca02c', '#ff7f0e']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+
+        // Animações de Cards
+        document.querySelectorAll('.demand-card').forEach(card => {
+            card.style.animation = `slideInRight ${Math.random() * 0.5 + 0.5}s ease forwards`;
+        });
+
+        // Gestos de Swipe
+        let startX;
+        document.querySelectorAll('.demand-card').forEach(card => {
+            card.addEventListener('touchstart', e => {
+                startX = e.touches[0].clientX;
+            });
+
+            card.addEventListener('touchmove', e => {
+                if (!startX) return;
+                
+                const currentX = e.touches[0].clientX;
+                const diff = currentX - startX;
+                
+                if (Math.abs(diff) > 50) {
+                    card.style.transform = `translateX(${diff}px)`;
+                }
+            });
+
+            card.addEventListener('touchend', e => {
+                startX = null;
+                card.style.transform = '';
+            });
+        });
+
+        // Notificações Push Mock
+        setTimeout(() => {
+            const notification = document.createElement('div');
+            notification.className = 'notification';
+            notification.textContent = 'Nova demanda recebida!';
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                notification.remove();
+            }, 3000);
+        }, 2000);
+    </script>
+</body>
+</html>
