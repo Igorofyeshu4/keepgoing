@@ -1,0 +1,147 @@
+{
+  "file_name": "_DEMANDAS DE JANEIRO_2025 - DEMANDAS JULIO.csv",
+  "structure": {
+    "encoding": "utf-8",
+    "columns": [
+      "RESOLUÇÃO",
+      "CTT",
+      "N°",
+      "DEMANDA",
+      "ATIVO/RECEPTIVO",
+      "DIRETOR",
+      "BANCO",
+      "RESPONSÁVEL",
+      "  ",
+      "Unnamed: 9"
+    ],
+    "dtypes": {
+      "RESOLUÇÃO": "object",
+      "CTT": "int64",
+      "N°": "int64",
+      "DEMANDA": "object",
+      "ATIVO/RECEPTIVO": "object",
+      "DIRETOR": "object",
+      "BANCO": "object",
+      "RESPONSÁVEL": "object",
+      "  ": "object",
+      "Unnamed: 9": "object"
+    },
+    "sample_data": [
+      {
+        "RESOLUÇÃO": "02/01/2025",
+        "CTT": 208050,
+        "N°": 2,
+        "DEMANDA": "VALORES",
+        "ATIVO/RECEPTIVO": "RECEPTIVO",
+        "DIRETOR": "JULIO",
+        "BANCO": "SANTANDER",
+        "RESPONSÁVEL": "ELIZABETE",
+        "  ": "RESOLVIDO",
+        "Unnamed: 9": "APROVADO"
+      }
+    ],
+    "null_counts": {
+      "RESOLUÇÃO": 0,
+      "CTT": 0,
+      "N°": 0,
+      "DEMANDA": 0,
+      "ATIVO/RECEPTIVO": 0,
+      "DIRETOR": 0,
+      "BANCO": 0,
+      "RESPONSÁVEL": 0,
+      "  ": 0,
+      "Unnamed: 9": 0
+    },
+    "file_size": 247721,
+    "last_modified": "2025-01-27T03:20:52.693895"
+  },
+  "processing": {
+    "total_rows": 2601,
+    "columns_present": [
+      "resolucao",
+      "CTT",
+      "N°",
+      "DEMANDA",
+      "ATIVO/RECEPTIVO",
+      "DIRETOR",
+      "BANCO",
+      "responsavel",
+      "  ",
+      "situacao",
+      "equipe"
+    ],
+    "null_counts": {
+      "resolucao": 0,
+      "CTT": 2,
+      "N°": 85,
+      "DEMANDA": 0,
+      "ATIVO/RECEPTIVO": 0,
+      "DIRETOR": 0,
+      "BANCO": 0,
+      "responsavel": 0,
+      "  ": 0,
+      "situacao": 0,
+      "equipe": 0
+    },
+    "unique_values": {
+      "responsavel": [
+        "ELIZABETE",
+        "FELIPE",
+        "FABIANA",
+        "ADRIANO",
+        "MATHEUS",
+        "ALANA",
+        "THALISSON",
+        "YURI",
+        "ANA LIDIA",
+        "POLIANA",
+        "ALINE",
+        "LETICIA",
+        "BRUNO MARIANO",
+        "NUNO",
+        "BRUNA RAQUEL",
+        "JULIANE",
+        "ISABELLA",
+        "LUARA",
+        "ANA GESSICA",
+        "ELISANGELA",
+        "MONYZA",
+        "VICTOR ADRIANO",
+        "NÃO INFORMADO",
+        "IGOR",
+        "GEOVANNA"
+      ],
+      "situacao": [
+        "APROVADO",
+        "SEM DESCONTO",
+        "EM ACORDO",
+        "NÃO INFORMADO",
+        "CANCELADO",
+        "QUITADO EMPRESA",
+        "AGUARDANDO COMPROVANTE",
+        "AGUARDANDO BOLETO",
+        "APREENDIDO",
+        "QUITAÇÃO PARCELADA",
+        "QUITADO CLIENTE",
+        "TRANSFERÊNCIA",
+        "AGUARDANDO PROCURAÇÃO",
+        "AGUARDANDO A ANÁLISE",
+        "REFINANCIAMENTO",
+        "CANCELADO SEM FINALIZAR",
+        "AT DE PARCELAS",
+        "AGÊNCIA",
+        "INFORMAÇÕES",
+        "LEVANTAMENTO DE VALORES",
+        "QUITADO APROVADO",
+        "AGUARDANDO MINUTA E BOLETO",
+        "ENTREGA AMIGAVEL",
+        "FANTASMA"
+      ],
+      "equipe": [
+        "OUTROS",
+        "ADRIANO"
+      ]
+    }
+  },
+  "timestamp": "2025-01-27T04:32:45.529608"
+}

@@ -1,0 +1,21 @@
+[browser]
+gatherUsageStats = false
+
+[logger]
+level = "info"
+messageFormat = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+[theme]
+base = "light"
+primaryColor = "#007bff"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8f9fa"
+textColor = "#212529"
+
+[server]
+enableCORS = false
+enableXsrfProtection = true
+maxUploadSize = 200
+
+[deprecation]
+showwarning = false

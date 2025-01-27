@@ -332,4 +332,188 @@ api/
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
+# Dashboard de Análise de Demandas Financeiras
+
+## 📊 Visão Geral do Projeto
+
+Este projeto implementa um sistema completo de análise de demandas financeiras, focado em monitorar e otimizar o desempenho das equipes JULIO, LEANDRO e ADRIANO. O sistema utiliza técnicas avançadas de processamento de dados e machine learning para fornecer insights valiosos sobre o fluxo de demandas.
+
+## 🔄 Pipeline do Projeto
+
+### 1. Coleta e Processamento de Dados
+- **Fonte**: Arquivos CSV com dados de demandas
+- **Processamento**: 
+  - Limpeza e normalização dos dados
+  - Correção automática de inconsistências
+  - Validação de formato e conteúdo
+
+### 2. Análise de Machine Learning
+- **Correção de Erros**:
+  - Modelo de detecção de anomalias
+  - Correção automática de dados inconsistentes
+  - Validação cruzada de correções
+
+- **Análise Temporal**:
+  - Previsão de demandas futuras
+  - Identificação de padrões sazonais
+  - Análise de tendências
+
+### 3. Dashboard Interativo
+- **Visualizações**:
+  - Métricas em tempo real
+  - Gráficos comparativos
+  - Análise por equipe
+
+- **Funcionalidades**:
+  - Filtros dinâmicos
+  - Exportação de relatórios
+  - Debug avançado
+
+## 📈 Importância das Análises
+
+### Análises Operacionais
+1. **Monitoramento de Desempenho**
+   - Acompanhamento diário de resoluções
+   - Métricas por equipe
+   - Tempo médio de resolução
+
+2. **Distribuição de Carga**
+   - Balanceamento entre equipes
+   - Identificação de gargalos
+   - Otimização de recursos
+
+### Análises Estratégicas
+1. **Tendências e Padrões**
+   - Sazonalidade de demandas
+   - Previsão de picos
+   - Análise de causas raiz
+
+2. **Tomada de Decisão**
+   - Alocação de recursos
+   - Planejamento de capacidade
+   - Definição de metas
+
+## 🛠️ Estrutura do Projeto
+
 ```
+organized_project/
+├── dashboard/
+│   ├── dashboard.py        # Interface principal
+│   ├── data_processor.py   # Processamento de dados
+│   └── static/             # Recursos estáticos
+├── ml_corrections/
+│   ├── error_correction_model.py    # Modelo ML para correções
+│   ├── apply_corrections.py         # Aplicação de correções
+│   └── analyze_demands_timeline.py  # Análise temporal
+├── docs/
+│   └── *.csv              # Arquivos de dados
+└── requirements.txt       # Dependências
+```
+
+## 📊 Tipos de Análise
+
+### 1. Análise Quantitativa
+- Volume de demandas
+- Taxa de resolução
+- Tempo médio de atendimento
+- Distribuição por status
+
+### 2. Análise Qualitativa
+- Padrões de resolução
+- Eficiência por equipe
+- Qualidade das resoluções
+- Satisfação do cliente
+
+### 3. Análise Preditiva
+- Previsão de demanda
+- Identificação de tendências
+- Alertas preventivos
+- Otimização de recursos
+
+## 🎯 Benefícios
+
+1. **Operacionais**
+   - Maior eficiência no atendimento
+   - Redução de tempo de resposta
+   - Melhor distribuição de carga
+
+2. **Estratégicos**
+   - Tomada de decisão baseada em dados
+   - Planejamento proativo
+   - Otimização de recursos
+
+3. **Financeiros**
+   - Redução de custos
+   - Melhor alocação de recursos
+   - Aumento de produtividade
+
+## 📝 Como Usar
+
+1. **Instalação**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Execução do Dashboard**
+   ```bash
+   streamlit run dashboard/dashboard.py
+   ```
+
+3. **Processamento de Dados**
+   ```bash
+   python process_demands_csv.py
+   ```
+
+4. **Análise ML**
+   ```bash
+   python ml_corrections/analyze_demands_timeline.py
+   ```
+
+## 🔍 Monitoramento e Debug
+
+- Logs detalhados de processamento
+- Arquivos de debug em JSON
+- Interface de debug no dashboard
+- Rastreamento de correções ML
+
+## 🔄 Atualizações Diárias
+
+O sistema processa automaticamente:
+- Novos dados de demandas
+- Atualizações de status
+- Correções e ajustes
+- Métricas de desempenho
+
+## 📈 Métricas Principais
+
+1. **Volumetria**
+   - Total de demandas
+   - Demandas por equipe
+   - Taxa de resolução
+
+2. **Tempo**
+   - Tempo médio de resolução
+   - Tempo por tipo de demanda
+   - SLA's
+
+3. **Qualidade**
+   - Taxa de sucesso
+   - Precisão das resoluções
+   - Satisfação do cliente
+
+## 🎯 Objetivos Futuros
+
+1. **Melhorias Técnicas**
+   - Automação avançada
+   - Integração com outros sistemas
+   - APIs para dados externos
+
+2. **Análises Avançadas**
+   - Machine Learning avançado
+   - Previsões mais precisas
+   - Análise de sentimento
+
+3. **Interface**
+   - Mais visualizações
+   - Relatórios personalizados
+   - Alertas inteligentes

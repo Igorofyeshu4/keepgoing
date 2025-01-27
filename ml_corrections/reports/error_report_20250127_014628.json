@@ -1,0 +1,180 @@
+{
+    "JULIO": {
+        "RESOLUÃÃO": {
+            "missing_values": 2847,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "CTT": {
+            "missing_values": 2849,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "NÂ°": {
+            "missing_values": 2932,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "DEMANDA": {
+            "missing_values": 2856,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "ATIVO/RECEPTIVO": {
+            "missing_values": 2874,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "DIRETOR": {
+            "missing_values": 2869,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "BANCO": {
+            "missing_values": 2857,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "RESPONSÃVEL": {
+            "missing_values": 2893,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "  ": {
+            "missing_values": 2849,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "Unnamed: 9": {
+            "missing_values": 3696,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        }
+    },
+    "LEANDRO": {
+        "RESOLUÃÃO": {
+            "missing_values": 1,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "CTT": {
+            "missing_values": 1,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "Unnamed: 2": {
+            "missing_values": 35,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "DEMANDA": {
+            "missing_values": 5,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "ATIVO/RECEPTIVO": {
+            "missing_values": 52,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "DIRETOR": {
+            "missing_values": 247,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "BANCO": {
+            "missing_values": 101,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "RESPONSÁVEL": {
+            "missing_values": 72,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "SITUAÃÃO": {
+            "missing_values": 0,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        }
+    },
+    "QUITADOS": {
+        "DATA": {
+            "missing_values": 174,
+            "invalid_format": 209,
+            "inconsistent_values": []
+        },
+        "CTT": {
+            "missing_values": 174,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "Unnamed: 2": {
+            "missing_values": 177,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "NOME": {
+            "missing_values": 174,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "SALDO DEVEDOR": {
+            "missing_values": 174,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "DESCONTO": {
+            "missing_values": 174,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "%": {
+            "missing_values": 0,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "PROCESSO": {
+            "missing_values": 175,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "CONSULTOR": {
+            "missing_values": 187,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "ESCRITÃRIO": {
+            "missing_values": 174,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "UF": {
+            "missing_values": 183,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "DIRETOR": {
+            "missing_values": 174,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "BANCO": {
+            "missing_values": 176,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        },
+        "RESPONSÁVEL": {
+            "missing_values": 175,
+            "invalid_format": 0,
+            "inconsistent_values": [
+                "KÃTIA"
+            ]
+        },
+        "SITUAÃÃO": {
+            "missing_values": 174,
+            "invalid_format": 0,
+            "inconsistent_values": []
+        }
+    }
+}
